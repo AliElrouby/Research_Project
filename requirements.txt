@@ -1,3 +1,4 @@
+tensorflow[and-cuda]==2.15.1
 ipywidgets==8.1.1
 matplotlib==3.7.3
 missingno==0.5.2
@@ -10,10 +11,12 @@ ydata-profiling==4.6.1
 Pillow==10.0.1
 plotly==5.18.0
 scikit-learn==1.3.2
-seaborn==0.12.2
-torch==2.0.1
-torchvision==0.15.2
 transformers==4.35.0
 umap-learn==0.5.4
-timm==0.9.12
 gdown==4.7.1
+lime==0.2.0.1
+shap==0.42.1
+skrebate==0.62
+jupyterlab
+notebook
+ipykernel
