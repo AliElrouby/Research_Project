@@ -1,0 +1,19 @@
+{
+    "model_name": "multimodal_capsnet_tabular_injected",
+    "task": "binary_diabetic_retinopathy_detection",
+    "input_image_size": 224,
+    "num_classes": 2,
+    "capsule_dim": 8,
+    "primary_capsules": 8,
+    "class_capsule_dim": 16,
+    "tabular_capsules": 8,
+    "routing_iters": 3,
+    "image_capsules_per_eye": 392,
+    "fused_capsules": 792,
+    "fusion_method": "tabular_embedding_converted_to_capsules_and_concatenated_before_dynamic_routing",
+    "extra_image_preprocessing_inside_model": false,
+    "stage1_lr": 0.0001,
+    "stage2_lr": 1e-05,
+    "stage1_epochs": 25,
+    "stage2_extra_epochs": 35
+}

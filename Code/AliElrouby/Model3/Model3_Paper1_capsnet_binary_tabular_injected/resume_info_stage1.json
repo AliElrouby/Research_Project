@@ -1,0 +1,6 @@
+{
+    "completed_epochs": 10,
+    "best_model_path": "Model3_Paper1_capsnet_binary_tabular_injected/best_stage1_model.keras",
+    "last_model_path": "Model3_Paper1_capsnet_binary_tabular_injected/last_stage1_model.keras",
+    "next_phase": "stage2_continue_training"
+}
