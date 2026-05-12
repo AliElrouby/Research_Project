@@ -5,7 +5,7 @@
     "num_classes": 2,
     "capsule_dim": 8,
     "primary_capsules": 8,
-    "class_capsule_dim": 12,
+    "class_capsule_dim": 16,
     "tabular_capsules": 8,
     "routing_iters": 2,
     "image_capsules_per_eye": 392,
@@ -18,6 +18,6 @@
     "optimizer": "AdamW",
     "stage1_lr": 0.0001,
     "stage2_lr": 1e-05,
-    "stage1_epochs": 15,
-    "stage2_extra_epochs": 5
+    "stage1_epochs": 25,
+    "stage2_extra_epochs": 25
 }
